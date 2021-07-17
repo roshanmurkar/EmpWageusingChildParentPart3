@@ -11,6 +11,8 @@ public class Employee {
 	protected int partTimeHour=20;
 	protected double dailyWage;
 	protected double partTimeEmployeeWage;
+	protected double workingDays=20;
+	protected double totalWageForMonth;
 
 	
 	//generating random number

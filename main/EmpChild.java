@@ -29,5 +29,11 @@ public class EmpChild extends Employee {
 		logger.log(Level.INFO,"Part time employee wage :-"+partTimeEmployeeWage+" /- Rs");
 
 	}
+	
+	//calculating monthly employee wage
+	protected void WagesForMonth() {		
+		totalWageForMonth=workingDays*dailyWage;
+		logger.log(Level.INFO,"total wages for month - "+totalWageForMonth+" RS");		
+	}
 }
 

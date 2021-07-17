@@ -16,6 +16,8 @@ public class EmpWage {
 		employeeData.partTimeEmployeeWage();
 		//getting employee wage using switch
 		employeeData.employeeWageUsingSwitch();
+		//getting wages for month;
+		employeeData.WagesForMonth();
 		
 	}
 }	
