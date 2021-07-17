@@ -12,6 +12,8 @@ public class EmpWage {
 		employeeData.EmployeeAttendance();
 		//getting daily employee wage
 		employeeData.DailyEmployeeWage();
+		//getting part time employee wage
+		employeeData.partTimeEmployeeWage();
 		
 	}
 }	
