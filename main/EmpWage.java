@@ -14,6 +14,8 @@ public class EmpWage {
 		employeeData.DailyEmployeeWage();
 		//getting part time employee wage
 		employeeData.partTimeEmployeeWage();
+		//getting employee wage using switch
+		employeeData.employeeWageUsingSwitch();
 		
 	}
 }	
