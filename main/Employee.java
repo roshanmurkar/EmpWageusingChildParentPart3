@@ -3,6 +3,9 @@ package main;
 public class Employee {
 	//parent variable
 	protected int randomNumber;
+	protected int wagePerHour=20;
+	protected int fullDayHour=8;
+
 	
 	//generating random number
 	protected void getRandomNumber() {
